@@ -6,6 +6,9 @@ app.config(function($routeProvider){
           })
           .when('/about',{
                 templateUrl: 'about.html'
+          })
+          .when('/contact',{
+                templateUrl: 'contact.html'
           });
 });
 app.controller('cfgController',function($scope){

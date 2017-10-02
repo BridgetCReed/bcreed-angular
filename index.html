@@ -47,16 +47,18 @@
                 </div>
             </div>
             <div class="col-sm-8 right">
+
+                <div>
+                    <nav>
+                        <ul>
+                            <li><a href="#/home">Home</a></li>
+                            <li><a href="#/about">About</a></li>
+                            <li><a href="#/contact">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
                 <div class="right-intro">
                     <div ng-controller="cfgController">
-                        <div>
-                            <nav>
-                                <ul>
-                                    <li><a href="#/about">Contact</a></li>
-                                </ul>
-                            </nav>
-                        </div>
-                        <br/>
                         <div ng-view>
                         <!--
                             This DIV loads templates depending upon route.
