@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 
 <html>
-  <head>
+    <head>
     
         <meta charset="utf-8">
     
@@ -36,8 +36,8 @@
         </script>
 
     
-      </head>
-    <body>
+    </head>
+    <body ng-app="single-page-app">
         <div class="container">
             <div class="col-sm-4 left">
                 <div class="left-intro">
@@ -46,20 +46,22 @@
             </div>
             <div class="col-sm-8 right">
                 <div class="right-intro">
-                    <h1>Hello! My&nbsp;name&nbsp;is <span class="intro-name">Bridget&nbsp;Reed</span>, and&nbsp;I&nbsp;am...</h1>
-                    <ul>
-                        <li>a <span>Junior&nbsp;Front-End&nbsp;Dev</span> at <a href="http://www.brownsteingroup.com" target="_blank">Brownstein&nbsp;Group</a></li>
-                        <li class="margin-bottom-0">an <span>Organizer, Designer, &amp; Instructor</span> for <a href="https://www.girldevelopit.com/chapters/philadelphia" target="_blank">Girl&nbsp;Develop&nbsp;It</a>
-                            <ul>
-                                <li><a href="https://bridgetcreed.github.io/photoshop-101" target="_blank">Photoshop 101</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                    <ul class="contact">
-                        <li>Want to work together? <a href="mailto:BridgetC.Reed@gmail.com">Contact&nbsp;Me!</a></li>
-                        <!--<li>Looking for my&nbsp;resum&eacute;? <a href="#" target="_blank">Here&nbsp;It&nbsp;Is!</a></li>-->
-                        <li>Don't&nbsp;forget&nbsp;my <a href="http://www.codepen.io/bridgetcreed" target="_blank">Codepen</a> &amp <a href="http://www.github.com/bridgetcreed" target="_blank">Github</a>.</li>
-                    </ul>
+                    <div ng-controller="cfgController">
+                        <div>
+                            <nav>
+                                <ul>
+                                    <li><a href="#/home">Home</a></li>
+                                    <li><a href="#/about">About us</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <br/>
+                        <div ng-view>
+                        <!--
+                            This DIV loads templates depending upon route.
+                        -->
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
