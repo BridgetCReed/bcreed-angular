@@ -208,12 +208,6 @@ div.container .right .right-intro ul.contact li {
   line-height: 1em;
 }
 
-div.container .right .right-intro ul.contact li:first-child {
-  margin-bottom: 40px;
-  padding-bottom: 40px;
-  border-bottom: 3px solid #efefef;
-}
-
 div.container .right .right-intro ul.contact li a {
   color: #333333;
   font-family: 'Playfair Display', serif;
