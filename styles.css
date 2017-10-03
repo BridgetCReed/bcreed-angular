@@ -178,6 +178,15 @@ div.container .right .right-intro h1 span::before {
   }
 }
 
+div.container .right .right-intro ul {
+  padding-left: 0px;
+}
+
+div.container .right .right-intro ul.social li {
+  display: inline-block;
+  width: auto;
+}
+
 div.container .right .right-intro ul.contact li {
   font-size: 2.25em;
   margin-top: 0px;
@@ -233,10 +242,6 @@ div.container .right .right-intro ul.contact li a:hover::before {
 
 div.container .right .right-intro ul.contact li a:focus, div.container .right .right-intro ul.contact li a:active {
   text-decoration: none;
-}
-
-div.container .right .right-intro ul {
-  padding-left: 0px;
 }
 
 div.container .right .right-intro ul.home li {
