@@ -189,7 +189,7 @@ div.container .right .right-intro ul.social {
 div.container .right .right-intro ul.social li {
   display: inline-block;
   width: auto;
-  padding: 0em 1em;
+  padding: 0em .5em;
 }
 
 div.container .right .right-intro ul.social li a img {
