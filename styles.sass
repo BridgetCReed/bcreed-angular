@@ -183,13 +183,19 @@ div.container
         padding-left: 0px
         &.home
           li
-            border-left: none
-            margin-bottom: 0em
-            font-size: 1em
-            background: url('sparkles-list.png') no-repeat left center
-            background-size: contain
-            height: 1.25em
-            padding-left: 40px
+            font-size: 1.75em
+            margin-top: 0px
+            list-style: none
+            margin-bottom: 20px
+            text-align: left
+            padding-left: 10px
+            border-left: 3px solid $light-grey
+            &.margin-bottom-0
+              margin-bottom: 0px
+            span
+              font-family: 'Playfair Display', serif
+              text-transform: initial
+              font-weight: 900
             a
               color: $font-dark
               font-family: 'Playfair Display', serif
@@ -207,7 +213,7 @@ div.container
                 left: 0
                 top: 1em
                 z-index: -1
-                background-color: rgba($gdi, 0.4)
+                background-color: rgba($grad-purple, 0.4)
                 transition: all 300ms ease-in-out
                 -moz-transition: all 300ms ease-in-out
                 -o-transition: all 300ms ease-in-out
@@ -219,49 +225,6 @@ div.container
                   background-color: rgba($grad-blue, 0.4)
               &:focus, &:active
                 text-decoration: none
-        li
-          font-size: 1.75em
-          margin-top: 0px
-          list-style: none
-          margin-bottom: 20px
-          text-align: left
-          padding-left: 10px
-          border-left: 3px solid $light-grey
-          &.margin-bottom-0
-            margin-bottom: 0px
-          span
-            font-family: 'Playfair Display', serif
-            text-transform: initial
-            font-weight: 900
-          a
-            color: $font-dark
-            font-family: 'Playfair Display', serif
-            text-transform: initial
-            font-weight: 900
-            position: relative
-            padding: 1em 0.2em
-            font-size: 1em
-            z-index: 1
-            &::before
-              content: ''
-              position: absolute
-              width: 100%
-              height: .75em
-              left: 0
-              top: 1em
-              z-index: -1
-              background-color: rgba($grad-purple, 0.4)
-              transition: all 300ms ease-in-out
-              -moz-transition: all 300ms ease-in-out
-              -o-transition: all 300ms ease-in-out
-              -webkit-transition: all 300ms ease-in-out
-              transition: all 300ms ease-in-out
-            &:hover
-              text-decoration: none
-              &::before
-                background-color: rgba($grad-blue, 0.4)
-            &:focus, &:active
-              text-decoration: none
     @media screen and (max-width: $break-medium)
       height: 50em
       padding: inherit
