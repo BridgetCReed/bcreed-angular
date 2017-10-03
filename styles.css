@@ -131,7 +131,7 @@ div.container .right nav ul li a:focus, div.container .right nav ul li a:active 
 }
 
 div.container .right .right-intro {
-  padding: 2em;
+  padding: 0em;
   background: white;
   overflow-y: scroll;
   text-align: left;
