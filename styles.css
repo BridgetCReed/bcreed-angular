@@ -188,6 +188,9 @@ div.container .right .right-intro ul.contact li {
   border-left: none;
   text-align: center;
   line-height: 1em;
+}
+
+div.container .right .right-intro ul.contact li:nth-child(first) {
   margin-bottom: 40px;
   padding-bottom: 40px;
   border-bottom: 3px solid #efefef;
