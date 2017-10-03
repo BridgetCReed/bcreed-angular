@@ -370,6 +370,14 @@ button.intro-name::before {
 button.intro-name:hover:before {
   background-color: rgba(75, 192, 200, 0.8);
 }
+
+.sample-show-hide {
+  transition: all linear 0.5s;
+}
+
+.sample-show-hide.ng-hide {
+  opacity: 0;
+}
  
 
  /*# sourceMappingURL= styles.css.map */
