@@ -375,7 +375,7 @@ button.intro-name:hover:before {
   transition: all linear 0.5s;
 }
 
-.fade.ng-hide {
+.fade.ng-view {
   opacity: 0;
 }
  
