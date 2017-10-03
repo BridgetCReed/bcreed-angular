@@ -378,6 +378,11 @@ button.intro-name:hover:before {
 .fade.ng-view {
   opacity: 0;
 }
+
+ng-view {
+  opacity: 0;
+  transition: all linear 0.5s;
+}
  
 
  /*# sourceMappingURL= styles.css.map */
