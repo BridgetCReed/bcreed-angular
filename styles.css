@@ -371,11 +371,11 @@ button.intro-name:hover:before {
   background-color: rgba(75, 192, 200, 0.8);
 }
 
-.sample-show-hide {
+.fade {
   transition: all linear 0.5s;
 }
 
-.sample-show-hide.ng-hide {
+.fade.ng-hide {
   opacity: 0;
 }
  
